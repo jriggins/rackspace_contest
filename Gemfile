@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'fog'
+gem 'fog', :git => 'git@github.com:fog/fog.git'
 
 group :test do
   gem 'guard-rspec'
