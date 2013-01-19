@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:fog/fog.git
-  revision: 3cc3ba933ba20566af97d95a302933865abcc090
+  remote: git@github.com:rackspace/fog.git
+  revision: a2255c7a66339952ab9fe9c7c311e1f845334d4a
   specs:
     fog (1.8.0)
       builder
