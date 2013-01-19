@@ -38,11 +38,6 @@ class RackspaceCloudClient
   attr_accessor :logger
 
   def initialize(args={})
-    # Having to mock. I wanted to at least show the intention before I got tripped 
-    # up with issues.
-    #Fog.mock!
-    #api_key = args.fetch(:api_key)
-    #api_username = args.fetch(:api_username)
     self.logger = args.fetch(:logger)
   end
 
