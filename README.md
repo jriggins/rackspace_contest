@@ -28,3 +28,4 @@ So that cop out statement above :) led me to pair things down to just copying a 
 Cloud Files and then grabbing the content via HTTP GET and printing it.  I've left some of the other Ruby code in 
 for the obfuscation factor.  Enjoy!
 
+Uses ruby-1.9.3, rubygems, and bundler along with the gems defined in Gemfile. 
