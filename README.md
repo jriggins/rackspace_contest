@@ -29,3 +29,10 @@ Cloud Files and then grabbing the content via HTTP GET and printing it.  I've le
 for the obfuscation factor.  Enjoy!
 
 Uses ruby-1.9.3, rubygems, and bundler along with the gems defined in Gemfile. 
+
+To run, you need a Rackspace account with an API key and .fog file in your HOME directory that looks something like this:
+
+
+:default:
+  :rackspace_api_key:   <API Key>
+  :rackspace_username:  <Rackspace Username>
